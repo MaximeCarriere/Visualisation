@@ -24,4 +24,4 @@ The following variables are provided to you:
 
 Subplot of different distributions
 
-![Screen Shot 2019-12-05 at 17 08 16](https://user-images.githubusercontent.com/55028120/70252570-ef3a0b00-1781-11ea-9829-bbbee8450a12.png)
+![Screen Shot 2019-12-05 at 17 37 32](https://user-images.githubusercontent.com/55028120/70254817-febb5300-1785-11ea-94a1-b1c9e4ecdbbc.png)
