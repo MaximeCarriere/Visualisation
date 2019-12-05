@@ -1,5 +1,5 @@
 # Visualisation
-## Graph temperature 
+## 1) Graph temperature 
 
 The data for this assignment comes from a subset of The National Centers for Environmental Information (NCEI) Daily Global Historical Climatology Network (GHCN-Daily). The GHCN-Daily is comprised of daily climate records from thousands of land surface stations across the globe.
 Each row in the assignment datafile corresponds to a single observation.
@@ -17,3 +17,11 @@ The following variables are provided to you:
 
 
 ==> Need to change time by months
+
+
+
+## 2) Subplot
+
+Subplot of different distributions
+
+![Screen Shot 2019-12-05 at 17 08 16](https://user-images.githubusercontent.com/55028120/70252570-ef3a0b00-1781-11ea-9829-bbbee8450a12.png)
