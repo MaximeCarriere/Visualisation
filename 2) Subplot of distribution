@@ -1,0 +1,31 @@
+import matplotlib.gridspec as gridspec
+import matplotlib.pyplot as plt
+
+
+# generate 4 random variables from the random, gamma, exponential, and uniform distributions
+x1 = np.random.normal(0, 1, 10000)
+x2 = np.random.gamma(1, 1, 10000)
+x3 = np.random.exponential(2, 10000)
+x4 = np.random.uniform(0,20, 10000)
+
+
+
+
+
+
+fig = plt.figure()
+ax1 = fig.add_subplot(221)
+plt.hist(x1, normed=True, bins=100, alpha=0.5)
+ax2 = fig.add_subplot(222)
+plt.hist(x2, normed=True, bins=100, alpha=0.5)
+ax3 = fig.add_subplot(223)
+plt.hist(x3, normed=True, bins=100, alpha=0.5)
+ax4 = fig.add_subplot(224)
+plt.hist(x4, normed=True, bins=100, alpha=0.5)
+ax1.title.set_text('Normal')
+ax2.title.set_text('Gamma')
+ax3.title.set_text('Expodential')
+ax4.title.set_text('Uniform')
+fig.subplots_adjust(hspace=.5)
+fig.suptitle('Distribution', fontsize=16)
+plt.show()
